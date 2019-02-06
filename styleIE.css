@@ -1,0 +1,118 @@
+
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+    
+    background: url(blur.jpg);	
+	background-size: cover;
+}
+.BgClass{
+    margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+    background: url(blue-blur.jpg);	
+	background-size: cover;
+    background-repeat: no-repeat;  
+    background-attachment: fixed 
+
+     
+}
+.login-box
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	padding: 50px;
+	box-sizing: border-box; 
+
+	background: #070707;
+    opacity: 0.5;
+    filter: alpha(opacity=05);
+
+    -moz-box-shadow: 0 15px 25px 0 rgba(0.5, 0.5, 0.5, 0.5);
+    -webkit-box-shadow: 0 15px 25px 0 rgba(0.5,0.5,0.5, 0.5);
+	box-shadow: 0 15px 25px 0 #c0c0c6;
+    opacity: 0.75;
+    filter: alpha(opacity=05);
+
+	border-radius: 20px;
+	
+}
+
+.login-box .content {
+  position: relative; /* This protects the inner element from being blurred */
+  padding: 100px;
+  
+}
+	.login-box h2
+	{
+	margin: 0 0 50px;
+	padding: 0;
+	color:white;
+	text-align: center;
+    font-family: Garamond;
+	font-size: 40px;
+	}
+	
+	.login-box .inputBox
+	{
+		position: relative;
+		
+	}
+	
+	.login-box .inputBox input
+	{
+	  width: 100%;
+	  padding: 10px 0;
+	  font-size: 16px;
+	  color:#fff;
+	  margin-bottom: 30px;
+	  border: none;
+	  border-bottom: 1px solid #fff;
+	  outline: none;
+	  background: transparent;
+	}
+	
+    .login-box .inputBox label /* Username */
+	{
+		font-family: Georgia;
+		position: relative;
+		bottom:90px;
+		left:0;
+		padding: 0 0;
+		font-size: 20px;
+		color: #fff;	
+	}
+	.login-box input[type ="submit"]
+	{
+		width: 35%;
+		font-family: Georgia;
+		font-size: 20px;
+		border: none;
+		font-weight: bold;
+		color: white;
+		background: #FF9900;
+		opacity: 0.8;
+		padding: 10px 20px;		
+	}
+	.login-box button
+	{
+		background-color:white;
+		color: black;
+		border: 2px solid black;	
+		border-radius:8px;
+		width: 60%;
+		height: 40px;
+		position: absolute;
+		left: 500px;
+		bottom: -90px;
+		font-family: Garamond;
+		font-weight: bold;
+		font-size: 15px;
+		
+	}
+	
